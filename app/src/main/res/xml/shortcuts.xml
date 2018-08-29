@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="jumpself"
+        android:enabled="true"
+        android:icon="@drawable/icon_1"
+        android:shortcutLongLabel="@string/short_label"
+        android:shortcutShortLabel="@string/long_label"
+        android:shortcutDisabledMessage="@string/disable_msg">
+        <intent
+            android:action="action.xxx"
+            android:targetClass="com.demo.stormxz.shortcutdemo.ShowFirstShrotcutActivity"
+            android:targetPackage="com.demo.stormxz.shortcutdemo">
+            <extra android:name="android.intent.extras.CAMERA_FACING" android:value="0" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="jumpcamera"
+        android:enabled="true"
+        android:icon="@drawable/icon_2"
+        android:shortcutLongLabel="@string/short_label_cam"
+        android:shortcutShortLabel="@string/long_label_cam"
+        android:shortcutDisabledMessage="@string/disable_msg">
+        <intent
+            android:action="android.media.action.IMAGE_CAPTURE">
+            <extra android:name="android.intent.extras.CAMERA_FACING" android:value="0" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

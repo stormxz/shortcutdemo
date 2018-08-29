@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shortcut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.demo.stormxz.shortcutdemo.ShortcutActivity">
+
+    <Button
+        android:id="@+id/add_shortcut_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/add_first_shortcut" />
+
+    <Button
+        android:id="@+id/add_pin_shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/add_pin_shortcut" />
+
+    <Button
+        android:id="@+id/disable_shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/disable_shortcut" />
+
+    <Button
+        android:id="@+id/enable_shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/enable_shortcut" />
+
+    <Button
+        android:id="@+id/update_shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/update_shortcut" />
+
+    <Button
+        android:id="@+id/remove_shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/remove_shortcut" />
+</LinearLayout>

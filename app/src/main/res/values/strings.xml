@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShortcutDemo</string>
+
+    <string name="add_first_shortcut">add shortcut jump</string>
+    <string name="disable_shortcut">disable shortcut</string>
+    <string name="enable_shortcut">enable shortcut</string>
+    <string name="add_pin_shortcut">add pin shortcut</string>
+    <string name="update_shortcut">update shortcut</string>
+    <string name="remove_shortcut">remove shortcut</string>
+
+    <string name="short_label">xml jump to self</string>
+    <string name="long_label">xml jump to self activity</string>
+
+    <string name="short_label_cam">xml jump to camera</string>
+    <string name="long_label_cam">xml jump to camera activity</string>
+
+    <string name="disable_msg">can not use this shortcut</string>
+
+</resources>
